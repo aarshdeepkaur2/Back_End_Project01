@@ -33,6 +33,7 @@ interface PortfolioPerformance {
     };
   }
 
+  //  function for finding the largest holding asset.
 interface Asset {
     name: string;
     value: number;
@@ -43,6 +44,7 @@ interface Asset {
     return assets.reduce((largest, asset) => (asset.value > largest.value ? asset : largest));
   }
 
+  //logic for calculating the asset allocation
   export function calculateAssetAllocation(assets: Asset[]): { name: string; percentage: number }[] {
     const totalValue = assets.reduce((sum, asset) => sum + asset.value, 0);
     return assets.map(asset => ({
