@@ -80,6 +80,7 @@ describe('calculatePortfolioPerformance', () => {
         expect(result.performanceSummary).toBe('The portfolio has lost significantly with a loss of $300.00.');
     });
 });
+// Test for largest holding aseet 
 describe('findLargestHolding', () => {
     it('should return the asset with the highest value', () => {
         const assets = [
@@ -110,6 +111,7 @@ describe('findLargestHolding', () => {
         expect(result).toEqual({ name: 'House', value: 100000 });
     });
 });
+// Test for calculating the asset allocation
 describe('calculateAssetAllocation', () => {
     it('should calculate the percentage allocation of each asset correctly', () => {
         const assets = [
