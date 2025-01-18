@@ -41,7 +41,7 @@ cause?
 -   **Variable States:** res, rep
 -   **Call Stack:**  The request flows from the above to the end breakpoint of the task
 -   **Behavior:** 
-- The GET response is giuven some tasks to retrive creating the API documentation.
+- The GET response is given some tasks to retrive creating the API documentation.
 ### Analysis
 
 -   What did you learn from this scenario?
@@ -59,18 +59,25 @@ cause?
 ## Scenario 3: Jest Test 
 
 
--   **Breakpoint Location:** [File and line number]
--   **Objective:** [What you are investigating or trying to understand]
+-   **Breakpoint Location:** Potfolioperformance.test.ts, 157
+-   **Objective:** I was trying to understand the behaviour of how the calculate asset method works.
 
 ### Debugger Observations
 
--   **Variable States:** [List key variables and their values]
--   **Call Stack:** [Summarize the function sequence leading to the breakpoint]
--   **Behavior:** [Describe what happens at this point in the program]
+-   **Variable States:** exports,  jest 
+-   **Call Stack:** The functions leads from the test porrtfolio file to the end of the breakpoint
+-   **Behavior:** THe functions is working as it was expected.
 
 ### Analysis
 
 -   What did you learn from this scenario?
+- How the tests works.
+
 -   Did you observe any unexpected behavior? If so, what might be the cause?
+- No 
+
 -   Are there areas for improvement or refactoring in this part of the code?
+- No
+
 -   How does this enhance your understanding of the overall project?
+- It adds a lot of knowledge related the tests.
